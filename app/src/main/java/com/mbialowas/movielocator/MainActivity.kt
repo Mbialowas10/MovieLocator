@@ -36,13 +36,13 @@ class MainActivity : ComponentActivity() {
                     //var movieManager = MovieManager()
                     //var items = movieManager.movieResponse.value.results
                     //Log.d("Movies", "$items")
-                    val movieService = Api.getInstance().create(MovieService::class.java)
+                    val movieService = Api.getInstance().create(MovieService::class.java) // get retrofit instance
 
                     //launch coroutine
                     GlobalScope.launch {
                         val result = movieService.getPopularMovies(Api.API_KEY)
                         if (result != null){
-                            Log.d("Datum", result.body().toString())
+                            Log.d("Data from API", result.body().toString())
                         }else{
                             Log.d("Datum", "No data pulled.")
                         }
