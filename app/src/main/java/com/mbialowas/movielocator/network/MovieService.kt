@@ -24,7 +24,8 @@ interface MovieService {
     //): Call<MovieResponse>
 
     @GET("movie/popular")
-    suspend fun getPopularMovies(@Query("api_key") API_KEY: String) : Response<MovieResponse>
+    //suspend fun getPopularMovies(@Query("api_key") API_KEY: String) : Response<MovieResponse>
+    fun getPopularMovies(@Query("api_key") API_KEY: String) : Call<MovieResponse>
 
     /**
      * Searches for movies based on a query string and page number.
