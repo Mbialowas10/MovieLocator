@@ -1,8 +1,7 @@
 package com.mbialowas.movielocator.network
 
-import com.mbialowas.movielocator.models.MovieResponse
+import com.mbialowas.movielocator.models.response.MovieResponse
 import retrofit2.Call
-import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 

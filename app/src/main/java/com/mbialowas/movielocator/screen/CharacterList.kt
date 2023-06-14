@@ -26,8 +26,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-import com.mbialowas.movielocator.CharacterDataSet
 import com.mbialowas.moviefinder.models.Character
+import com.mbialowas.movielocator.CharacterDataSet
 
 
 @Composable

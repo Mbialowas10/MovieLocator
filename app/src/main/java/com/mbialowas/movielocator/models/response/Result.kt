@@ -1,4 +1,4 @@
-package com.mbialowas.movielocator.models
+package com.mbialowas.movielocator.models.response
 
 
 import com.google.gson.annotations.SerializedName

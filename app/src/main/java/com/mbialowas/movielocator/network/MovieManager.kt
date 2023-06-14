@@ -1,15 +1,5 @@
 package com.mbialowas.movielocator.network
 
-import android.util.Log
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.State
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import com.mbialowas.movielocator.models.MovieResponse
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
-
 
 class MovieManager {
 //    // patch retrofit together and get a response
